@@ -13,9 +13,9 @@ export default function Navbar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item dropdown">
                 <a className="nav-link nav-highlighted dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span class="navbar-toggler-icon"></span> All Categories
+                  <span className="fs-5 lh-1 me-2">&#9776;</span> All Categories
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu font-small">
                   <li><a className="dropdown-item" href="#">category-1</a></li>
                   <li><a className="dropdown-item" href="#">category-2</a></li>
                   <li><hr className="dropdown-divider" /></li>
@@ -26,7 +26,7 @@ export default function Navbar() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Home
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu font-small">
                   <li><a className="dropdown-item" href="#">Home-1</a></li>
                   <li><a className="dropdown-item" href="#">Home-2</a></li>
                   <li><a className="dropdown-item" href="#">Home-3</a></li>
@@ -36,7 +36,7 @@ export default function Navbar() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Shop
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu font-small">
                   <li><a className="dropdown-item" href="#">Shop-1</a></li>
                   <li><a className="dropdown-item" href="#">Shop-2</a></li>
                   <li><a className="dropdown-item" href="#">Shop-3</a></li>
@@ -46,7 +46,7 @@ export default function Navbar() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Pages
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu font-small">
                   <li><a className="dropdown-item" href="#">Pages-1</a></li>
                   <li><a className="dropdown-item" href="#">Pages-2</a></li>
                   <li><a className="dropdown-item" href="#">Pages-3</a></li>
@@ -56,7 +56,7 @@ export default function Navbar() {
                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blog
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu font-small">
                   <li><a className="dropdown-item" href="#">Blog-1</a></li>
                   <li><a className="dropdown-item" href="#">Blog-2</a></li>
                   <li><a className="dropdown-item" href="#">Blog-3</a></li>
@@ -70,7 +70,7 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <img className="me-1" src="/images/phone-icon.svg" alt="phone" />
+          <img className="header-icon me-1" src="/images/phone-icon.svg" alt="phone" />
           (219) 555-0114
         </nav>
       </div>
