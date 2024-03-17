@@ -5,3 +5,14 @@
 
 /* Top Bar Styles */
 
+/* header-bar styles */
+.header-icon{
+  max-height: 20px;
+  width: auto;
+}
+.vr-separator {
+  width: 1px;
+  height: 24px;
+  background: #cccccc;
+}
+
