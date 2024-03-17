@@ -2,6 +2,9 @@
 .font-small {
   font-size: 14px;
 }
+.font-smaller {
+  font-size: 12px;
+}
 
 /* Top Bar Styles */
 
@@ -14,5 +17,11 @@
   width: 1px;
   height: 24px;
   background: #cccccc;
+}
+
+/* Navbar styles */
+.nav-highlighted {
+  background: green;
+  color:#FFFFFF;
 }
 
