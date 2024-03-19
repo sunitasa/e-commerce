@@ -4,14 +4,15 @@ import Navbar from './common/Navbar'
 import SiteHeader from './common/SiteHeader'
 import HeroBanner from './home/HeroBanner'
 import Features from './home/Features'
-import FeaturedProducts from './home/FeaturedProducts'
+// import FeaturedProducts from './home/FeaturedProducts'
 import AdBanners from './home/AdBanners'
-import Deals from './home/Deals'
+// import Deals from './home/Deals'
 import NewArrivals from './home/NewArrivals'
 import Testimonials from './home/Testimonials'
 import NewsPromo from './home/NewsPromo'
-import Newsletter from './home/Newsletter'
+// import Newsletter from './home/Newsletter'
 import Footer from './common/Footer'
+import FooterEnd from './common/FooterEnd'
 
 export default function Home() {
   return (
@@ -23,12 +24,13 @@ export default function Home() {
         <Features />
         <NewArrivals />
         <AdBanners />
-        <Deals />
-        <FeaturedProducts />
+        {/* <Deals /> */}
+        {/* <FeaturedProducts /> */}
         <Testimonials />
         <NewsPromo />
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Footer />
+       <FooterEnd />
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import CartPreview from './CartPreview'
 
 export default function SiteHeader() {
   return (
@@ -16,7 +17,7 @@ export default function SiteHeader() {
           <div className='icon-area d-flex align-items-center'>
             <img className='header-icon' src='/images/favorite.svg' alt='favorite' />
             <div className='vr-separator m-0 ms-2 me-2'></div>
-            <img className='header-icon me-2' src='/images/bag.svg' alt='bag' />
+            <img className='header-icon me-2 pointer' data-bs-toggle="offcanvas" href="#cartPreview"  src='/images/bag.svg' alt='bag' />
             <div className='lh-sm'>
               <p className='m-0 font-smaller text-secondary'>Shopping cart:</p>
               <p className='m-0 font-small fw-bold'>$57.00</p>
@@ -24,6 +25,7 @@ export default function SiteHeader() {
           </div>
         </nav>
       </div>
+      <CartPreview />
     </section>
   )
 }

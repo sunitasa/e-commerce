@@ -2,8 +2,13 @@
 .font-small {
   font-size: 14px;
 }
+
 .font-smaller {
   font-size: 12px;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /* Top Bar Styles */
@@ -21,7 +26,65 @@
 
 /* Navbar styles */
 .nav-highlighted {
-  background: green;
+  background: var(--bs-green);
   color:#FFFFFF;
 }
 
+/* Hero BAnner */
+#hero-banner-carousel img {
+  max-height: 415px !important;
+}
+
+
+/* Features section */
+section#features {
+  margin-bottom: -80px;
+  z-index: 999 !important;
+}
+
+.feature-box:hover {
+  background-color: var(--bs-green) !important;
+  color: #FFFFFF;
+}
+
+.circle {
+  float: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.feature-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  object-position: center; 
+}
+
+.btn-add-to-cart {
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.btn-add-to-cart img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  object-position: center; 
+}
+
+.btn-add-to-cart:hover {
+  background-color: var(--bs-green);
+}
+/* newspromo style */
+.negative-margin{
+  margin-bottom: -80px;
+}
+/* footer */
+.footer-up{
+  background-color: #EDF2EE;
+}
+.footer-buttom{
+  background-color: #002603;
+}
